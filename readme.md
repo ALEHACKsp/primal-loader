@@ -37,7 +37,7 @@ ___
          //Dump relocs and place it here.
          m_relocations.emplace_back (0x0);
      ```
-     Hint: It is almost impossible to automatically restore erased relocations. But it is quite possible to dump a segment with a different address value (Largest address -> Smallest). Thus, you can go through the cycle and restore some of the relocs, but you cannot restore all relocationsd without human intervention.
+     Hint: It is almost impossible to automatically restore erased relocations. But it is quite possible to dump a segment with a different address value (Largest address -> Smallest). Thus, you can go through the cycle and restore some of the relocs, but you cannot restore all relocations without human intervention.
   
    ##
    ##### Stage 2: Setup RuntimeHandler configuration.
