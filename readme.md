@@ -44,11 +44,12 @@ ___
    ###
    
    1. You need to set a pair of values. (In Bootstrap.cpp)
-    1.0. NAD - New allocation address. (Can be 0x0 by default)
-    1.1. ОАD - Old allocation address. (Base dump address)
-    1.2. SGZ - Segment size. (Used for memcpy / Dump size)
-    1.3. ALZ - Allocation size. (The size of the allocated memory for the segment. Should not be less than sgz!)
-    1.4. OEP - Original entry point. (Offset to original dump entry point / CRT_DllMain)
+   
+    1.1. NAD - New allocation address. (Can be 0x0 by default)
+    1.2. ОАD - Old allocation address. (Base dump address)
+    1.3. SGZ - Segment size. (Used for memcpy / Dump size)
+    1.4. ALZ - Allocation size. (The size of the allocated memory for the segment. Should not be less than sgz!)
+    1.5. OEP - Original entry point. (Offset to original dump entry point / CRT_DllMain)
   
   2. Compile & inject.
 
