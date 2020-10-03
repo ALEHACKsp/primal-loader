@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dev">
+      <UniqueIdentifier>{17646235-bb0b-42ae-9cca-829a7f5875ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp">
+      <UniqueIdentifier>{a97a91f9-844e-4cbf-a49a-4b64ae3873a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp">
+      <UniqueIdentifier>{05327e0f-05cc-4f61-bab7-6e50003537aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\util">
+      <UniqueIdentifier>{a48e6235-179a-46e8-8606-23ca021cd5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\segment">
+      <UniqueIdentifier>{ba0f00e9-829f-48bb-afae-8e6402741a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\loader">
+      <UniqueIdentifier>{56dbcc0c-143e-47d5-b498-1a50c8051eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\util">
+      <UniqueIdentifier>{a92972c5-e4e9-423e-aec1-5fec016a1864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\loader">
+      <UniqueIdentifier>{c69268bb-3b23-4326-95a8-28665c5baff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\util\stuff">
+      <UniqueIdentifier>{9083aef4-86fe-4f83-8d91-c5fc8948a713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\util\stuff">
+      <UniqueIdentifier>{d7bfcfb0-4f83-4aa4-b59d-78500485c2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\loader\segment">
+      <UniqueIdentifier>{d5d20828-4473-4846-a3eb-10fe073591d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\loader\runtime">
+      <UniqueIdentifier>{0f3bfca6-0da9-4df5-848f-0d510e3a1bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\loader\segment">
+      <UniqueIdentifier>{7759c1a3-1179-4f36-8cf9-2db9fb8314fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\loader\runtime">
+      <UniqueIdentifier>{37de08e8-433b-46b4-a3d0-96d6e6d2b1ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bootstrap.cpp">
+      <Filter>dev</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\loader\runtime\RuntimeHandler.cpp">
+      <Filter>dev\cpp\loader\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\loader\segment\SegmentHeaderManager.cpp">
+      <Filter>dev\cpp\loader\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\loader\segment\Segment.cpp">
+      <Filter>dev\cpp\loader\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\util\PanicUtil.cpp">
+      <Filter>dev\cpp\util</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\util\CommonUtil.cpp">
+      <Filter>dev\cpp\util</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\util\stuff\Logger.cpp">
+      <Filter>dev\cpp\util\stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hpp\Vendor.hpp">
+      <Filter>dev\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\util\CommonUtil.hpp">
+      <Filter>dev\hpp\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\util\PanicUtil.hpp">
+      <Filter>dev\hpp\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\util\stuff\Singleton.hpp">
+      <Filter>dev\hpp\util\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\util\stuff\Logger.hpp">
+      <Filter>dev\hpp\util\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\segment\SegmentInterpreter.hpp">
+      <Filter>dev\hpp\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\loader\segment\SegmentHeader.hpp">
+      <Filter>dev\hpp\loader\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\loader\segment\SegmentTranslator.hpp">
+      <Filter>dev\hpp\loader\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\loader\segment\Segment.hpp">
+      <Filter>dev\hpp\loader\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="hpp\loader\runtime\RuntimeHandler.hpp">
+      <Filter>dev\hpp\loader\runtime</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
